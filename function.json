@@ -1,0 +1,14 @@
+{
+  "Bug": {
+    "func": "async function bug(sock, target) { for (let i = 0; i < 3; i++) { await sock.sendMessage(target, { text: '💣 BOOM!' }); } }",
+    "loop": 3
+  },
+  "Delay": {
+    "func": "async function bug(sock, target) { await sock.sendMessage(target, { text: '⏳ Delay message' }); }",
+    "loop": 1
+  },
+  "Xbug": {
+    "func": "async function bug(sock, target) { await sock.sendMessage(target, { text: '⚡ Xbug fired!' }); }",
+    "loop": 5
+  }
+}
