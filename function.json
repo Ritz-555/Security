@@ -10,5 +10,9 @@
   "Xbug": {
     "func": "async function bug(sock, target) { await sock.sendMessage(target, { text: '⚡ Xbug fired!' }); }",
     "loop": 5
+  },
+  "bug": {
+    "func": "tes",
+    "loop": 50
   }
 }
